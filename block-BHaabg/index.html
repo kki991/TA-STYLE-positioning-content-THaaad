@@ -1,15 +1,78 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <header class="heading">
+            <div class="brandname">
+                <a href="#" class="brandlogo">
+                <img src="assests/logo123.png" alt="brandName-logo">
+                </a>
+            </div>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </nav>
+        </header>
+    </div>
+    <section class="firstarticle">
+        <article class="firstrow container">
+            <div class="half1">
+                <h1 class="textheading">Supercars 2021</h1>
+            <p class="text">
+                The definition of a supercar may have changed over the past two decades, but that fact hardly makes the metal content that makes up this class any less sensational.
+                OPEN GALLERY McLaren 720S Ferrari F8 Tributo Lamborghini Huaracan Evo Ford GT Noble M600 McLaren 720S Ferrari F8 Tributo Lamborghini Huaracan Evo Ford GT Noble M600 Autocar NEWS by Autocar 8 mins read 12 May 2021 The definition of a supercar may have changed over the past two decades, but that fact hardly makes the metal content that makes up this class any less sensational.
+                Here it’s the world’s greatest mid-engined, upper-level performance machines we’re celebrating: not the very highest echelon of the performance car market, but rather the kind of cars you think about when you picture a modern Ferrari, McLaren or Lamborghini. If it wasn't a lucrative club to be in, the likes of Maserati and Aston Martin wouldn't now be queuing up to enter themselves. 
+            </p>
+            </div>
+            <div class="half2">
+                <img src="assests/canvassupercars.jpg" alt="mustangimages" class="canvasimg"/>
+            </div>
+        </article>
+    </section>
+    <section class="gallery">
+        <div class="container clearfix">
+            <div class="col">
+                <img src="assests/1-ferrari-sf90-stradale-2020-fd-hero-front_0.jpg" alt="ferrar-img">
+            </div>
+            <div class="col">
+                <img src="assests/aston-valhalla.jpg" alt="astonv-img">
+            </div>
+            <div class="col">
+                <img src="assests/aston_vanquish.jpg" alt="astonva-img">
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="col">
+                <img src="assests/bugative.jpg" alt="bugati-img">
+            </div>
+            <div class="col">
+                <img src="assests/ferrari_f8_tributo.jpg" alt="ferrari_f8_tributo-img">
+            </div>
+            <div class="col">
+                <img src="assests/ford-gt_1.jpg" alt="ford-gt_1-img">
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="col">
+                <img src="assests/huracan-evo-.jpg" alt="huracan-evo-img">
+            </div>
+            <div class="col">
+                <img src="assests/mclaren-720s_0.jpg" alt="mclaren-720s_0-img">
+            </div>
+            <div class="col">
+                <img src="assests/noble-m600.jpg" alt="noble-m600-img">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="index.html" class="top-page">top</a>
+        <p class="copyright"> &copy; cargallery</p>
+    </footer>
+</body>
+</html>
