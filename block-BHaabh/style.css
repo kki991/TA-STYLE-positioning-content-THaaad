@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom styles*/
+body{
+    background-color: rgb(21, 109, 241);
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.heading{
+    max-width: 1360px;
+    padding: 20px;
+    height: 80px;
+    background-color: rgb(21, 109, 241);
+}
+.heading h2{
+    color: whitesmoke;
+}
+.heading a{
+    margin-left: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(21, 109, 241);
+    height: 300px;
+}
+.hero p{
+    font-size: 16px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: whitesmoke;
+}
+.part2-0{
+    background-color: white;
+    height: 400px;
+}
+.part3-0{
+    height: 550px;
+    padding: 30px 0;
+}
+.part4-0{
+    background-color: white;
+    padding: 40px;
+}
+.col{
+    width: 25%;
+    padding: 4%;
+    line-height: 1.7;
+}
+.col h2{
+    font-size: 32px;
+    color: rgb(96, 169, 238);
+}
+.col p{
+    color: gray;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.btn{
+    background-color: rgb(21, 109, 241);
+    color: whitesmoke;
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 30px;
+}
+.photowidname{
+    text-align: center;
+
+}
+.photowidname h2{
+    font-size: 40px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.photowidname h3{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    color: whitesmoke;
+}
+.photowidname div{
+    border: solid 1px rgb(95, 151, 236);
+    width: 20%;
+    padding: 2% 0;
+    margin-left: 3.7%;
+}
+.personid img{
+    border-radius: 50%;
+}
+.personid h2{
+    font-size: 22px;  
+}
+.personid h3{
+    font-size: 16px;
+}
+.part4{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.part4 h2{
+    font-size: 36px;
+    margin-top: 40px;
+    color: rgb(96, 169, 238);
+}
+.part4 h3{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: gray;
+}
+.part4-1{
+    width: 40%;
+    padding: 0 2%;
+    position: relative;
+    height: 430px;
+}
+.part4-2{
+    width: 40%;
+    padding: 0 2%;
+    position: relative;
+    height: 430px;
+}
+.part4-1 h2{
+    line-height: 1.7;
+    text-align: left;
+}
+.part4-2 h2{
+    line-height: 1.7;
+    text-align: left;
+}
+.part4-1 p{
+    line-height: 1.7;
+    text-align: left;
+    color: gray;
+}
+.part4-2 p{
+    line-height: 1.7;
+    text-align: left;
+    color: gray;
+}
+.part4-1 img{
+    width: 100%;
+}
+.part4-2 img{
+    width: 100%;
+}
+hr{
+    border: dotted 1px gray;
+    max-width: 1270px;
+    margin: 30px auto;
+}
+.footer{
+    background-color: white;
+    padding: 20px 0;
+}
+.copyright{
+    margin-left: 30px;
+}
+.copyright p{
+    color: gray;
+}
+.icon i{
+    margin-left: 30px;
+}
+.pic00btn{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+}
